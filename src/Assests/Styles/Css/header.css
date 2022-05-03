@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  background-color: #111111; }
+
+.body {
+  display: flex; }
+
+@keyframes pisc {
+  from {
+    border-right-color: #d2dae2; }
+  to {
+    border-right-color: #111111; } }
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 16em; } }
+.container--main-header {
+  height: 100vh;
+  width: 60px;
+  background-color: #1e272e;
+  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px; }
+
+.header--icons {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center; }
+  .header--icons ul li {
+    margin: 10px;
+    cursor: pointer; }
+
+.header--titles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .header--titles .titles--works {
+    transform: rotate(270deg);
+    margin-top: 40px;
+    background: none;
+    cursor: pointer; }
+    .header--titles .titles--works .works--active {
+      color: #d2dae2; }
+      .header--titles .titles--works .works--active:active {
+        color: #fff; }
+    .header--titles .titles--works .works--null {
+      color: #ff5e57; }
+      .header--titles .titles--works .works--null:active {
+        color: #fff; }
+    .header--titles .titles--works span {
+      background-color: #ff5e57;
+      width: 60px;
+      position: absolute;
+      bottom: 32px;
+      left: 0px;
+      height: 5px; }
+  .header--titles .titles--about {
+    transform: rotate(270deg);
+    margin-top: 80px;
+    background: none;
+    cursor: pointer; }
+    .header--titles .titles--about .about--active {
+      color: #d2dae2; }
+      .header--titles .titles--about .about--active:active {
+        color: #fff; }
+    .header--titles .titles--about .about--null {
+      color: #ff5e57; }
+      .header--titles .titles--about .about--null:active {
+        color: #fff; }
+    .header--titles .titles--about span {
+      background-color: #ff5e57;
+      width: 45px;
+      position: absolute;
+      bottom: 32px;
+      left: 5px;
+      height: 5px; }
+  .header--titles .titles--contacts {
+    transform: rotate(270deg);
+    margin-top: 80px;
+    background: none;
+    cursor: pointer; }
+    .header--titles .titles--contacts .contacts--active {
+      color: #d2dae2; }
+      .header--titles .titles--contacts .contacts--active:active {
+        color: #fff; }
+    .header--titles .titles--contacts .contacts--null {
+      color: #ff5e57; }
+      .header--titles .titles--contacts .contacts--null:active {
+        color: #fff; }
+    .header--titles .titles--contacts span {
+      background-color: #ff5e57;
+      width: 55px;
+      position: absolute;
+      bottom: 32px;
+      left: 2px;
+      height: 5px; }
+
+/*# sourceMappingURL=header.css.map */

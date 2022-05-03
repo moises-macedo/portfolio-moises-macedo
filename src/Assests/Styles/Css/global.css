@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  background-color: #111111; }
+
+.body {
+  display: flex; }
+
+@keyframes pisc {
+  from {
+    border-right-color: #d2dae2; }
+  to {
+    border-right-color: #111111; } }
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 16em; } }
+
+/*# sourceMappingURL=global.css.map */

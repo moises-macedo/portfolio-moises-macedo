@@ -1,0 +1,148 @@
+@import "./global.scss";
+
+.container--main-header {
+    height: 100vh;
+    width: 60px;
+    background-color: #1e272e;
+    box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.header--icons {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+
+    ul {
+        li {
+            margin: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.header--titles {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+    .titles--works {
+        transform: rotate(270deg);
+        margin-top: 40px;
+        background: none;
+
+        cursor: pointer;
+
+        .works--active {
+            color: $color-gray-20;
+
+
+            &:active {
+                color: $color-white-0;
+            }
+        }
+
+        .works--null {
+            color: $color-red-40;
+
+
+            &:active {
+                color: $color-white-0;
+            }
+
+        }
+
+        span {
+
+            background-color: $color-red-40;
+            width: 60px;
+            position: absolute;
+            bottom: 32px;
+            left: 0px;
+            height: 5px;
+
+        }
+    }
+
+    .titles--about {
+        transform: rotate(270deg);
+        margin-top: 80px;
+        background: none;
+        cursor: pointer;
+
+        .about--active {
+            color: $color-gray-20;
+
+            &:active {
+                color: $color-white-0;
+            }
+        }
+
+        .about--null {
+            color: $color-red-40;
+
+            &:active {
+                color: $color-white-0;
+            }
+
+        }
+
+        span {
+
+            background-color: $color-red-40;
+            width: 45px;
+            position: absolute;
+            bottom: 32px;
+            left: 5px;
+            height: 5px;
+
+        }
+
+
+    }
+
+    .titles--contacts {
+        transform: rotate(270deg);
+        margin-top: 80px;
+        background: none;
+        cursor: pointer;
+
+        .contacts--active {
+            color: $color-gray-20;
+
+            &:active {
+                color: $color-white-0;
+            }
+        }
+
+        .contacts--null {
+            color: $color-red-40;
+
+            &:active {
+                color: $color-white-0;
+            }
+
+        }
+
+        span {
+
+            background-color: $color-red-40;
+            width: 55px;
+            position: absolute;
+            bottom: 32px;
+            left: 2px;
+            height: 5px;
+
+        }
+
+    }
+
+}

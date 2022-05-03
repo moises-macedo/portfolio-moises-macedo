@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 
 * {
     margin: 0;
@@ -7,36 +8,57 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    
 
 }
 
 $color-gray-20: #d2dae2;
-$color-white-0:#fff;
+$color-white-0:#ffffff;
 $color-background: #111111;
 $color-red-40:#ff5e57;
-$font-Special:'Special Elite', cursive;
+$color-background-header:#1e272e;
+$font-Special:'Special Elite',
+cursive;
 
-body{
-    background-color: $color-background;    
+body {
+    background-color: $color-background;
 }
-.body{
+
+.body {
     display: flex;
 }
 
 @keyframes pisc {
-    from{
+    from {
         border-right-color: $color-gray-20;
     }
-    to{
-        border-right-color: $color-background; 
+
+    to {
+        border-right-color: $color-background;
     }
 }
 
 @keyframes typing {
-    from{
+    from {
         width: 0;
     }
-    to{
+
+    to {
         width: 16em;
+    }
+}
+
+@keyframes colors {
+
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
     }
 }

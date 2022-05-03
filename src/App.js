@@ -1,12 +1,13 @@
-import PreLoarders from "./Components/PreLoaders";
-import "./app.css"
+import Header from "./Components/Header";
+import Welcome from "./Components/Welcome";
+import './Assests/Styles/Css/global.css'
+
 
 function App() {
   return (
-    <div>
-      <h1 className="title--preLoarders"> Site em construção... <PreLoarders/></h1>
-      <p className="title--sorry">Desculpe-me pelo transtorno</p>
-      
+    <div className="body">
+      <Header />
+      <Welcome/>
     </div>
   );
 }

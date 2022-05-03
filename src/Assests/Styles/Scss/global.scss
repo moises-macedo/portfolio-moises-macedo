@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+$color-gray-20: #d2dae2;
+$color-white-0:#fff;
+$color-background: #111111;
+$color-red-40:#ff5e57;
+$font-Special:'Special Elite', cursive;
+
+body{
+    background-color: $color-background;    
+}
+.body{
+    display: flex;
+}
+
+@keyframes pisc {
+    from{
+        border-right-color: $color-gray-20;
+    }
+    to{
+        border-right-color: $color-background; 
+    }
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to{
+        width: 16em;
+    }
+}

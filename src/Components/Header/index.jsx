@@ -26,9 +26,9 @@ const Header = ({}) =>{
         setActiveContacts(true);
     }
 
-    const handleGithub = () => window.open('https://github.com/moises-macedo')
-    const handleLinkedin = () => window.open('https://www.linkedin.com/in/mois%C3%A9s-alex-macedo-71413a9a/')
-    const handleEmail = () => window.open('mailto:moses.mabyda@gmail.com')
+    const handleGithub = () => window.open('https://github.com/moises-macedo');
+    const handleLinkedin = () => window.open('https://www.linkedin.com/in/mois%C3%A9s-alex-macedo-71413a9a/');
+    const handleEmail = () => window.open('mailto:moses.mabyda@gmail.com');
 
     return(
         <div className="container--main-header">

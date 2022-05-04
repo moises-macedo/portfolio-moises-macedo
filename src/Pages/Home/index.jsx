@@ -8,10 +8,9 @@ import { useState } from "react";
 const Home = () => {
     const [isActiveJobs, setIsActiveJobs] = useState(false)
     return (
-        <div className="container--home">
-            <Header />
+        <div className="container--home">            
             <Welcome />
-            <Salutation />
+            
         </div>
     )
 }

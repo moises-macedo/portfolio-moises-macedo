@@ -5,10 +5,8 @@ import Salutation from "../../Components/ Salutation"
 
 const HtmlCssJs = () => {
     return (
-        <div className="container--home">
-            <Header />
+        <div className="container--home">            
             <Html />
-            <Salutation />
         </div>
     )
 }

@@ -11,9 +11,6 @@
 body {
   background-color: #111111; }
 
-.body {
-  display: flex; }
-
 @keyframes pisc {
   from {
     border-right-color: #d2dae2; }

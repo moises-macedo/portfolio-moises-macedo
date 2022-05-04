@@ -28,5 +28,7 @@ body {
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+.container--home {
+  display: flex; }
 
-/*# sourceMappingURL=global.css.map */
+/*# sourceMappingURL=pages.css.map */

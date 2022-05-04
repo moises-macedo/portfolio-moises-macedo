@@ -8,7 +8,7 @@ const Html = () => {
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch("http://localhost:3000/Api/index.json").then((res) => res.json())
+        fetch("https://portfolio-moises-macedo.vercel.app/Api/index.json").then((res) => res.json())
             .then((res) => setData(res.productsHtml))
 
     }, [])

@@ -1,16 +1,19 @@
 import { useState } from "react";
 import { AiFillLinkedin, AiFillGithub, AiOutlineMail } from "react-icons/ai";
-import "../../Assests/Styles/Css/header.css"
+import "../../Assests/Styles/Css/header.css";
+import { useNavigate } from "react-router-dom";
 
-const Header = () =>{
+const Header = ({}) =>{
     const [activeWorks, setActiveWorks] = useState(false);
     const [activeAbout, setActiveAbout] = useState(false);
     const [activeContacts, setActiveContacts] = useState(false);
+    const navigateWorks = useNavigate()
 
     const handleWorks = () =>{
         setActiveWorks(true);
         setActiveAbout(false);
         setActiveContacts(false);
+        navigateWorks('/trabalhos')
     }
     const handleAbout = () =>{
         setActiveWorks(false);

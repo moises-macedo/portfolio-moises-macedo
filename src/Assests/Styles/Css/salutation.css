@@ -11,9 +11,6 @@
 body {
   background-color: #111111; }
 
-.body {
-  display: flex; }
-
 @keyframes pisc {
   from {
     border-right-color: #d2dae2; }
@@ -31,30 +28,42 @@ body {
     background-position: 100% 50%; }
   100% {
     background-position: 0% 50%; } }
+.salutation--icon {
+  display: flex;
+  justify-content: flex-end; }
+  .salutation--icon button {
+    background: none;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-bottom: 2px solid #ff5e57; }
+
 .container--salutation {
   height: 100vh;
   width: 20vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.75); }
 
-.salutation--me h1 {
-  color: #d2dae2;
-  font-size: 70px;
-  text-align: center; }
-  .salutation--me h1 span {
-    color: #ff5e57; }
-.salutation--me h3 {
-  color: #d2dae2;
-  font-size: 20px;
-  text-align: center; }
-  .salutation--me h3 span {
-    color: #ffffff;
-    border-bottom: 2px solid #ff5e57;
-    font-size: 24px; }
+.salutation--me {
+  margin-top: 200px; }
+  .salutation--me h1 {
+    color: #d2dae2;
+    font-size: 70px;
+    text-align: center; }
+    .salutation--me h1 span {
+      color: #ff5e57; }
+  .salutation--me h3 {
+    color: #d2dae2;
+    font-size: 20px;
+    text-align: center; }
+    .salutation--me h3 span {
+      color: #ffffff;
+      border-bottom: 2px solid #ff5e57;
+      font-size: 24px; }
 
 .salutation--btn {
   display: flex;

@@ -1,0 +1,169 @@
+@import "./global.scss";
+
+.container--html {
+    height: 100vh;
+    width: 75vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.container--main-card {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+
+    width: 50vw;
+
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    
+}
+
+.container--card {
+    border: 2px solid $color-background-header;
+    font-family: 'Barlow Condensed', sans-serif;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+
+
+
+    .card--img {
+        display: flex;
+        align-items: center;
+        align-self: center;
+
+        img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+    }
+
+    .card--products {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+
+        .card--name {
+            color: $color-red-40;
+            margin-top: 15px;
+            margin-left: 10px;
+            font-size: 13px;
+
+            span {
+                color: $color-gray-20;
+                font-size: 16px;
+            }
+        }
+
+        .card--description {
+            color: $color-red-40;
+            margin-top: 5px;
+            margin-left: 10px;
+            font-size: 13px;
+
+            span {
+                color: $color-gray-20;
+                font-size: 16px;
+            }
+        }
+
+        .card--language {
+            color: $color-red-40;
+            margin-top: 5px;
+            margin-left: 10px;
+            font-size: 13px;
+            margin-bottom: 5px;
+
+            span {
+                color: $color-gray-20;
+                font-size: 16px;
+            }
+        }
+    }
+
+}
+
+.card--button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 17px;
+        padding: 0.8em 1.3em 0.8em 0.9em;
+        color: $color-red-40;
+        background-color: $color-background-header;
+        border: none;
+        letter-spacing: 0.05em;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 95%;
+
+        svg {
+            margin-right: 3px;
+            transform: rotate(30deg);
+            transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+        }
+
+        span {
+            transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+
+        }
+    }
+
+
+    button:hover svg {
+        transform: translateX(5px) rotate(90deg);
+    }
+
+    button:hover span {
+        transform: translateX(7px);
+    }
+
+}
+
+.container--btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.btn--left{
+    
+    padding: 10px;
+    width: 100px;
+    background: none;
+}
+
+.btn--rigth{
+    padding: 10px;
+    width: 100px;
+    background: none;
+    
+    
+    
+}

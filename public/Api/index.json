@@ -71,6 +71,24 @@
             "image":"http://localhost:3000/Api/img/calendario.png",
             "address": "https://moises-macedo.github.io/Calendario-Horario/",
             "description": "Criação de horário local de Brasília"
+        },
+        {
+            "id": 9,
+            "name":"Jogo Jokenpô",
+            "category":"Html",
+            "language": "Html - Css -Js",
+            "image":"http://localhost:3000/Api/img/JogoJokepo.png",
+            "address": "https://kenzie-academy-brasil-developers.github.io/noturno_m1-entrega-s6-pedra-papel-tesoura-moises-macedo/",
+            "description": "Jogo cohecido como Pedra, Papel e Tesoura"
+        },
+        {
+            "id": 10,
+            "name":"Jogo GENIUS",
+            "category":"Html",
+            "language": "Html - Css -Js",
+            "image":"http://localhost:3000/Api/img/JogoGenius.png",
+            "address": "https://kenzie-academy-brasil-developers.github.io/noturno-entrega_dupla-s6-jogo_genius-moises-macedo/",
+            "description": "Jogo da memória em que aleatoriamente será apresentado uma sequência de luzes e o usuário deverá repetir a sequência sorteada."
         }
     ]
 }

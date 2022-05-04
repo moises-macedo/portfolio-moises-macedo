@@ -5,10 +5,8 @@ import "../../Assests/Styles/Css/pages.css"
 
 const Works = () => {
     return (
-        <div className="container--home">
-            <Header />
-            <Jobs />
-            <Salutation />
+        <div className="container--home">            
+            <Jobs />            
         </div>
     )
 }

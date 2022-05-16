@@ -3,30 +3,27 @@ import "../../Assests/Styles/Css/html.css"
 import { useState, useEffect, useRef } from 'react';
 
 
-
-const Html = () => {
-
+const React = () => {
     const [data, setData] = useState([]);
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch("https://api-portfolio-theta.vercel.app/api/html/html.json").then((res) => res.json())
-            .then((res) => setData(res.productsHtml))
+        fetch("https://api-portfolio-theta.vercel.app/api/react/react.json").then((res) => res.json())
+            .then((res) => setData(res.productsReact))
 
     }, [])
 
     const handleLefClick = (e) => {
-        e.preventDefault();        
+        e.preventDefault();
         carousel.current.scrollLeft -= carousel.current.offsetWidth;
     }
     const handlerigthClick = (e) => {
         e.preventDefault();
         carousel.current.scrollLeft += carousel.current.offsetWidth;
     }
-
-
     return (
-        <div className="container--html">            
+
+        <div className="container--html">
             <div className="container--main-card" ref={carousel}>
                 {data.map((el) => {
                     const { id, name, language, image, address, description } = el;
@@ -52,18 +49,14 @@ const Html = () => {
             </div>
             <div className="container--btn">
                 <button className="btn--left" onClick={handleLefClick}  >
-                    <p>
-                        <BsFillArrowLeftSquareFill size={50} color="#ff5e57" cursor={'pointer'} />
-                    </p>
+                    <BsFillArrowLeftSquareFill size={50} color="#ff5e57" cursor={'pointer'} />
                 </button>
                 <button className="btn--rigth" onClick={handlerigthClick} >
                     <BsFillArrowRightSquareFill size={50} color="#ff5e57" cursor={'pointer'} />
                 </button>
             </div>
-            
-
         </div>
+
     )
 }
-
-export default Html
+export default React

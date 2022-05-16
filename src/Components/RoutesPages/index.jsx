@@ -4,6 +4,7 @@ import "../../Assests/Styles/Css/animation.css";
 import Works from '../../Pages/Works';
 import HtmlCssJs from '../../Pages/HtmlCssJs';
 import Welcome from '../Welcome';
+import ReactSass from "../../Pages/ReactSass";
 
 const RoutesPages = () => {
     const location = useLocation();
@@ -15,6 +16,7 @@ const RoutesPages = () => {
                     <Route exact path={'/'} element={<Welcome />} animation={false} />
                     <Route path={'/trabalhos'} element={<Works />} />
                     <Route path={'trabalhos/html-css-js'} element={<HtmlCssJs />} />
+                    <Route path={'trabalhos/react'} element={<ReactSass/>} />
                 </Routes>
             </CSSTransition>
         </TransitionGroup>

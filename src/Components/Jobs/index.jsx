@@ -3,7 +3,8 @@ import "../../Assests/Styles/Css/jobs.css";
 import { useNavigate } from "react-router-dom";
 
 const Jobs = () => {
-    const navigateHtml = useNavigate()
+    const navigateHtml = useNavigate();
+    const navigateReact = useNavigate()
     return (
         <div className="container--jobs">
             <div className="jobs--html">
@@ -18,7 +19,7 @@ const Jobs = () => {
             </div>
             <p className="p--division"></p>
             <div className="container--react">
-                <button>
+                <button onClick={()=> navigateHtml('react')}>
                     <ul>
                         <li><DiReact size={25} color='#1e272e' /></li>
                         <li> <DiSass size={25} color='#1e272e' /></li>

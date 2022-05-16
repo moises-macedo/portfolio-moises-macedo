@@ -90,5 +90,47 @@
             "address": "https://kenzie-academy-brasil-developers.github.io/noturno-entrega_dupla-s6-jogo_genius-moises-macedo/",
             "description": "Jogo da memória em que aleatoriamente será apresentado uma sequência de luzes e o usuário deverá repetir a sequência sorteada."
         }
+    ],
+    "productsReact":[
+        {
+            "id": 1,
+            "name":"Hamburgueria da Kenzie",
+            "category":"React",
+            "language": "React - Sass",
+            "image":"",
+            "address": "https://react-entrega-s1-hamburgueria-da-kenzie-moises-macedo.vercel.app/",
+            "description": "Basicamente é lista de produtos que simula um carrinho de compras com react."
+
+        },
+        {
+            "id": 2,
+            "name":"Preparativos para o torneio Tribruxo",
+            "category":"React",
+            "language": "React - Sass",
+            "image":"",
+            "address": "https://react-entrega-s1-preparativos-para-o-torneio-trib-moises-macedo.vercel.app/",
+            "description": "Os bruxos de Hogwarts estão ansiosos para as Preparatórias do Torneio Tribruxo. Três alunos (students) foram escolhidos para o Torneio."
+
+        },
+        {
+            "id": 3,
+            "name":"Formulário de Cadastro",
+            "category":"React",
+            "language": "React - Sass",
+            "image":"",
+            "address": "https://react-entrega-s2-formulario-de-cadastro-moises-macedo.vercel.app/",
+            "description": "Criando um formulário de cadastro com React Hook Form e Yup."
+
+        },
+        {
+            "id": 4,
+            "name":"Formulário de Cadastro de usuário",
+            "category":"React",
+            "language": "React - Sass",
+            "image":"",
+            "address": "https://react-atividade-s2-praticando-forms-moises-macedo.vercel.app/",
+            "description": "Formulário de cadastro de usuário."
+
+        }
     ]
 }

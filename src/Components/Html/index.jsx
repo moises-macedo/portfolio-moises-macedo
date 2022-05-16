@@ -1,6 +1,8 @@
 import { BsFillArrowLeftSquareFill, BsFillArrowRightSquareFill } from "react-icons/bs";
 import "../../Assests/Styles/Css/html.css"
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react';
+import apiHtml from "../Api";
+
 
 const Html = () => {
 
@@ -8,7 +10,7 @@ const Html = () => {
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch("https://portfolio-moises-macedo.vercel.app/Api/index.json").then((res) => res.json())
+        fetch(apiHtml).then((res) => res.json())
             .then((res) => setData(res.productsHtml))
 
     }, [])
@@ -24,7 +26,7 @@ const Html = () => {
 
 
     return (
-        <div className="container--html">
+        <div className="container--html">            
             <div className="container--main-card" ref={carousel}>
                 {data.map((el) => {
                     const { id, name, language, image, address, description } = el;
@@ -58,6 +60,7 @@ const Html = () => {
                     <BsFillArrowRightSquareFill size={50} color="#ff5e57" cursor={'pointer'} />
                 </button>
             </div>
+            
 
         </div>
     )

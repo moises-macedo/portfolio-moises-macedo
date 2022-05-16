@@ -1,5 +1,14 @@
 @import "./global.scss";
 
-.container--home{
+.container--pages{
     display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    
+}
+.container--home{
+    display: grid;
+    grid-template-columns: 60px 1fr 230px;
+    
+    
 }

@@ -8,17 +8,17 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    
+
 
 }
 
 $color-gray-20: #d2dae2;
-$color-white-0:#ffffff;
+$color-white-0: #ffffff;
 $color-background: #111111;
-$color-red-40:#ff5e57;
-$color-background-header:#1e272e;
-$font-Special:'Special Elite',
-cursive;
+$color-red-40: #ff5e57;
+$color-background-header: #1e272e;
+$font-Special: 'Special Elite',
+    cursive;
 
 body {
     background-color: $color-background;
@@ -60,3 +60,21 @@ body {
         background-position: 0% 50%;
     }
 }
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }

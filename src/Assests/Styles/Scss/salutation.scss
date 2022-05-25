@@ -62,6 +62,7 @@
         background-color: $color-red-40;
         cursor: pointer;
         display: flex;
+        animation: shake 2s infinite;
 
         p {
             background: linear-gradient(45deg,$color-background-header, #203239, #EEEDDE, #E0DDAA);

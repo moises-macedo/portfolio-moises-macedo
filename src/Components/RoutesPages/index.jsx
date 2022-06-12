@@ -12,7 +12,7 @@ const RoutesPages = () => {
 
     return (
         <TransitionGroup>
-            <CSSTransition key={location.key} classNames="transition" timeout={200}>
+            <CSSTransition key={location.key} classNames="alert" timeout={500}>
                 <Routes location={location}>
                     <Route exact path={'/'} element={<Welcome />} animation={false} />
                     <Route path={'/trabalhos'} element={<Works />} />

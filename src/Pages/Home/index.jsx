@@ -1,7 +1,7 @@
 import Header from "../../Components/Header";
 import Welcome from "../../Components/Welcome";
 import Jobs from "../../Components/Jobs";
-import "../../Assests/Styles/Css/pages.css"
+import "../../Assets/Styles/Css/pages.css"
 import Salutation from "../../Components/ Salutation";
 import { useState } from "react";
 

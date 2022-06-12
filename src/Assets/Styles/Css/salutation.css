@@ -82,8 +82,7 @@ body {
     border-radius: 5px;
     background-color: #ff5e57;
     cursor: pointer;
-    display: flex;
-    animation: shake 2s infinite; }
+    display: flex; }
     .salutation--btn button p {
       background: linear-gradient(45deg, #1e272e, #203239, #EEEDDE, #E0DDAA);
       background-size: 300% 300%;

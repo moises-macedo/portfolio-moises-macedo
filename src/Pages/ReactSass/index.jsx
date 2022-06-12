@@ -1,4 +1,4 @@
-import "../../Assests/Styles/Css/pages.css";
+import "../../Assets/Styles/Css/pages.css";
 import React from "../../Components/React";
 import ReturnButton from "../../Components/ReturnButton"
 

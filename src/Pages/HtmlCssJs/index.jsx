@@ -1,5 +1,5 @@
 import Html from "../../Components/Html"
-import "../../Assests/Styles/Css/pages.css"
+import "../../Assets/Styles/Css/pages.css"
 import Header from "../../Components/Header"
 import Salutation from "../../Components/ Salutation"
 import ReturnButton from "../../Components/ReturnButton"

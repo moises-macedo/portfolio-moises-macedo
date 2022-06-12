@@ -1,4 +1,4 @@
-import "../../Assests/Styles/Css/salutation.css";
+import "../../Assets/Styles/Css/salutation.css";
 import { BsWhatsapp } from "react-icons/bs";
 import { BiHome } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";

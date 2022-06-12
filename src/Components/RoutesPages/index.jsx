@@ -1,6 +1,6 @@
 import { Route, Routes, useLocation } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
-import "../../Assests/Styles/Css/animation.css";
+import "../../Assets/Styles/Css/animation.css";
 import Works from '../../Pages/Works';
 import HtmlCssJs from '../../Pages/HtmlCssJs';
 import Welcome from '../Welcome';

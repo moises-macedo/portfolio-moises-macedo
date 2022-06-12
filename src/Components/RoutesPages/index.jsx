@@ -5,6 +5,7 @@ import Works from '../../Pages/Works';
 import HtmlCssJs from '../../Pages/HtmlCssJs';
 import Welcome from '../Welcome';
 import ReactSass from "../../Pages/ReactSass";
+import DetailAboutMe from '../../Pages/DetailAboutMe';
 
 const RoutesPages = () => {
     const location = useLocation();
@@ -16,7 +17,8 @@ const RoutesPages = () => {
                     <Route exact path={'/'} element={<Welcome />} animation={false} />
                     <Route path={'/trabalhos'} element={<Works />} />
                     <Route path={'trabalhos/html-css-js'} element={<HtmlCssJs />} />
-                    <Route path={'trabalhos/react'} element={<ReactSass/>} />
+                    <Route path={'trabalhos/react'} element={<ReactSass />} />
+                    <Route path={"/sobre-mim"} element={<DetailAboutMe />} />
                 </Routes>
             </CSSTransition>
         </TransitionGroup>

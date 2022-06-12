@@ -19,6 +19,7 @@ const Header = ({ }) => {
         setActiveWorks(false);
         setActiveAbout(true);
         setActiveContacts(false);
+        navigateWorks('/sobre-mim')
     }
     const handleContacts = () => {
         setActiveWorks(false);

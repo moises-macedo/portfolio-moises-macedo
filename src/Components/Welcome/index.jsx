@@ -1,4 +1,4 @@
-import "../../Assests/Styles/Css/welcome.css"
+import "../../Assets/Styles/Css/welcome.css"
 
 const Welcome = () =>{
     return(

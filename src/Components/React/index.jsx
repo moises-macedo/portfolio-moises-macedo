@@ -1,6 +1,7 @@
 import { BsFillArrowLeftSquareFill, BsFillArrowRightSquareFill } from "react-icons/bs";
-import "../../Assests/Styles/Css/html.css"
+import "../../Assets/Styles/Css/html.css"
 import { useState, useEffect, useRef } from 'react';
+import { apiReact } from "../../Services/Api";
 
 
 const React = () => {
@@ -8,8 +9,9 @@ const React = () => {
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch("https://api-portfolio-theta.vercel.app/api/react/react.json").then((res) => res.json())
-            .then((res) => setData(res.productsReact))
+        apiReact.get()
+        .then((res) => setData(res.data.productsReact))
+        .catch(err => console.log(err))
 
     }, [])
 

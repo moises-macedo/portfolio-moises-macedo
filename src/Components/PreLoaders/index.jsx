@@ -1,4 +1,4 @@
-import "../../Assests/Styles/Css/preLoarders.css"
+import "../../Assets/Styles/Css/preLoarders.css"
 
 const PreLoarders = () => {
 

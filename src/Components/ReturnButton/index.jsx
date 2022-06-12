@@ -1,6 +1,6 @@
 import { BsArrowReturnLeft } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
-import "../../Assests/Styles/Css/returnButton.css";
+import "../../Assets/Styles/Css/returnButton.css";
 
 const ReturnButton = () => {
     const fromNavigate = useNavigate()

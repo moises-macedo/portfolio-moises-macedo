@@ -1,5 +1,5 @@
 import { DiJsBadge, DiCss3, DiHtml5, DiReact, DiSass } from "react-icons/di";
-import "../../Assests/Styles/Css/jobs.css";
+import "../../Assets/Styles/Css/jobs.css";
 import { useNavigate } from "react-router-dom";
 
 const Jobs = () => {

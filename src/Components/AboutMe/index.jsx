@@ -26,8 +26,8 @@ const AboutMe = () => {
                     </li>
                 </ul>
             </nav>
-            <section>
-                <div>
+            <section className="about-info">
+                <div className="info1">
                     <p>
                         Meu nome é Moisés Alex tenho 26 anos sou natural de Goiânia. Nascido e criado na terra do sertanejo desde pequeno ouvindo modas de viola nas festas de família, mas acredito que não deu muito certo, pois gosto mesmo é de um bom (Rock and Roll) deixo a moda de viola e o sertanejo para garotada. Quando jovem queria viajar o mundo, conhece lugares lindos que só observamos na Tv. Como a capital do pequi é muito quente sempre sonhei em conhecer o frio de fato, conhecer neve, fazer bonecos de neve, anjos de neve.
                         OBS: Sou o de camisa cinza.
@@ -38,7 +38,7 @@ const AboutMe = () => {
 
                     </figure>
                 </div>
-                <div>
+                <div className="info2">
                     <p>
                         Em 2015 perdi minha base, minhas pernas, minha vida.
                         Meu pai foi um homem incrível, que sempre me ajudou a questionar as regras de tudo, sempre me fez pensar nos ônus e bônus das ações. Fui criado com diálogo, sempre que fazia algo errado nos conversávamos sobre o ocorrido, se um dia for metade do homem que ele foi seria um bom exemplo para minha família.
@@ -50,7 +50,7 @@ const AboutMe = () => {
                         <figcaption>Papai e Mamãe.</figcaption>
                     </figure>
                 </div>
-                <div>
+                <div className="info1">
                     <p>Em 2016 conseguir fazer primeira viagem fora do país, era um sonho sendo realizado. Passei por Foz do Iguaçu(PR), Córdoba(AR) e Santiago(CL).
                         Conseguir ver neve pela primeira vez e pensei comigo mesmo ("Mãe, é muito gelado"). Foi uma experiência incrível, o contato com outras culturas além da nossa ajuda a ver tudo diferente e quando voltei para o Brasil coloquei na cabeça que vou seguir meus sonhos.</p>
                     <figure>
@@ -58,7 +58,7 @@ const AboutMe = () => {
                         <figcaption>Puente del Inca na Argentina.</figcaption>
                     </figure>
                 </div>
-                <div>
+                <div className="info2">
                     <p>Em 2017 larguei tudo em Goiânia e vim sozinho para Curitiba a cidade que na sombra congela e no sol torramos e foi quando fiz meu primeiro curso livre de TI (Introdução a programação), porém como tinha que trabalhar em dois empregos desviei dos estudos e foquei no trabalho. Minha rainha, minha esposa, meu amor sempre acreditou em mim, isso me fez a sonhar novamente. Em 2021 comecei a estruturar os planos de estudo novamente e hoje sou aluno da Kenzie Academy Brasil no curso de Front End e graduando pela Universidade Estácio de Sá em análise e desenvolvimento de sistema.
                     </p>
                     <figure>
@@ -67,6 +67,9 @@ const AboutMe = () => {
                     </figure>
                 </div>
             </section>
+            <footer>
+                <p>Sobre os ombros de gigantes</p>
+            </footer>
         </div>
     )
 

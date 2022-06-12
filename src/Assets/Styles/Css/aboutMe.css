@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box; }
+
+body {
+  background-color: #111111; }
+
+@keyframes pisc {
+  from {
+    border-right-color: #d2dae2; }
+  to {
+    border-right-color: #111111; } }
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 16em; } }
+@keyframes colors {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0); }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0); }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0); }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0); } }
+.container--about {
+  width: 75vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff; }
+
+.about-title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .about-title h2 {
+    font-size: clamp(1rem, 8vw, 2rem); }
+
+.about--circle-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px; }
+  .about--circle-btn ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%; }
+    .about--circle-btn ul li {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      border: 2px solid red;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .about--circle-btn ul li button {
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+        cursor: pointer; }
+
+img {
+  width: 150px; }
+
+/*# sourceMappingURL=aboutMe.css.map */

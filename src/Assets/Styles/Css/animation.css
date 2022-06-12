@@ -40,12 +40,21 @@ body {
 html::-webkit-scrollbar {
   display: none; }
 
-.transition-enter {
-  transform: translateX(-75vw);
-  z-index: 1; }
+.alert-enter {
+  opacity: 0;
+  transform: scale(0.9); }
 
-.transition-enter.transition-enter-active {
-  transform: translateX(0vw);
-  transition: transform 200ms ease-in; }
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms; }
+
+.alert-exit {
+  opacity: 1; }
+
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms; }
 
 /*# sourceMappingURL=animation.css.map */

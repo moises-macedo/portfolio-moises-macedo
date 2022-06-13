@@ -4,6 +4,7 @@ import Pais from "../../Assets/Img/pais.jpg";
 import Foto2 from "../../Assets/Img/foto2.jpg";
 import Familia from "../../Assets/Img/familia.jpeg";
 import { useState } from "react";
+import Music from "../../Assets/Media/Home2.mp3";
 
 const AboutMe = () => {
     const [isVisibleOne, setIsVisibleOne] = useState(true);
@@ -37,11 +38,13 @@ const AboutMe = () => {
         setIsVisibleFour(true)
     }
 
+
     return (
         <div className="container--about">
             <header className="about-title">
                 <h2>Um pouquinho sobre mim.</h2>
             </header>
+            <audio src={Music} autoPlay controls muted loop></audio>
             <nav className="about--circle-btn">
                 <ul className="">
                     <li>
@@ -67,7 +70,7 @@ const AboutMe = () => {
                 {isVisibleOne === true && isVisibleTwo === false && isVisibleThree === false && isVisibleFour === false ?
                     (<div className="info1">
                         <p>
-                            Meu nome é <span>Moisés Alex</span> tenho 26 anos sou natural de Goiânia. Nascido e criado na terra do sertanejo desde pequeno ouvindo modas de viola nas festas de família, mas acredito que não deu muito certo, pois gosto mesmo é de um bom (Rock and Roll) deixo a moda de viola e o sertanejo para garotada. Quando jovem queria viajar o mundo, conhece lugares lindos que só observamos na Tv. Como a capital do pequi é muito quente sempre sonhei em conhecer o frio de fato, conhecer neve, fazer bonecos de neve, anjos de neve.
+                            Meu nome é <span>Moisés Alex</span> tenho 26 anos sou natural de Goiânia. Nascido e criado na terra do sertanejo desde pequeno ouvindo modas de viola nas festas de família, mas acredito que não deu muito certo, pois gosto mesmo é de um bom (Dark blues/Rock ) deixo a moda de viola e o sertanejo para garotada. Quando jovem queria viajar o mundo, conhece lugares lindos que só observamos na Tv. Como a capital do pequi é muito quente sempre sonhei em conhecer o frio de fato, conhecer neve, fazer bonecos de neve, anjos de neve.
                             <span> OBS: Sou o de camisa cinza.</span>
                         </p>
                         <figure>

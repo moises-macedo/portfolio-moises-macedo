@@ -6,11 +6,17 @@ import { useNavigate } from "react-router-dom";
 const Salutation = () => {
     const navigateHome = useNavigate()
 
+    const handleNavigate = () =>{
+        navigateHome('/');
+        window.location.reload()
+
+    }
+
     const handleWhatsapp = () => window.open('https://web.whatsapp.com/send?phone=5541987169042');
     return (
         <div className="container--salutation">
             <div className="salutation--icon">
-                <button onClick={()=>navigateHome('/')}>
+                <button onClick={handleNavigate}>
                     <BiHome size={25} color='#d2dae2'/>
                 </button>
             </div>

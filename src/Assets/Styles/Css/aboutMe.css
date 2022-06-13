@@ -160,4 +160,13 @@ footer {
 .clicleTrue {
   background: #ff5e57; }
 
+audio {
+  height: 20px;
+  width: 100%; }
+  audio::-webkit-media-controls-enclosure {
+    background-color: transparent; }
+  audio progress::-webkit-progress-value {
+    color: red;
+    background-color: blue; }
+
 /*# sourceMappingURL=aboutMe.css.map */
